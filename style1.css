@@ -1,0 +1,191 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    background-image: linear-gradient(lightblue,black);
+    --max-width: 600px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+.container__left,
+.container__right {
+    flex: 1;
+    position: relative;
+}
+
+.ribbon__white {
+    position: absolute;
+    height: 100%;
+    width: 400px;
+    right: 5rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.ribbon__white h3 {
+    padding: 4rem 3rem 3rem 2rem;
+    font-size: 3.5rem;
+}
+.container__left img {
+    position: absolute;
+    bottom: 0;
+    right: calc(5rem + 40px);
+    width: 320px;
+}
+
+.container__right {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.navbar {
+    padding: 2.5rem 0;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color:lightcoral;
+    width: 500px;
+    border:2px solid green;
+  }
+  
+  .navbar span {
+    padding: 0.5rem;
+    color: var(--extra-light);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .navbar span:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .navbar .join {
+    width: 80px;
+    text-align: center;
+    font-weight: 500px;
+    border-radius: 5rem;
+    background-color: var(--primary-color);
+    color: var(--extra-light) !important;
+    transition: 0.3s;
+  }
+  
+  .navbar .join:hover {
+    background-color: var(--primary-color-dark);
+  }
+.content {
+    max-width: var(--max-width);
+    display: grid;
+    gap: 3rem;
+    padding: 10;
+}
+.content h1 {
+    color: aqua;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.content p {
+    color: black;
+}
+
+th{
+    background-color: darkgrey;
+    color: black;
+  }
+  
+  tr{
+    background-color: green;
+    text-align:center;
+  }
+  
+  .gndTblUl{
+    text-align:center;
+  }
+  h2{
+    color: aquamarine;
+  }
+
+
+
+.sociallogo a{
+    margin: 7px;
+    color: #111111;
+    text-align: center;
+    position: relative;
+}
+
+
+.login{
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+
+}
+h2{
+text-align: center;
+color: #277582;
+padding: 20px;
+}
+label{
+color: #08ffd1;
+font-size: 17px;
+}
+#Uname{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+#Pass{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+}
+#log{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 7px;
+color: blue;
+
+
+}
+span{
+color: white;
+font-size: 17px;
+}
+a{
+float: right;
+background-color: grey;
+}
+
+@media screen and (max-width:620px) {
+    section #text{
+        font-size: 80px;
+    }
+}
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+
